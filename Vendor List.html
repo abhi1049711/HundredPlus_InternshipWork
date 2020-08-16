@@ -1,0 +1,120 @@
+<!DOCTYPE html>  
+<html>  
+    <head> 
+
+
+
+
+        <!-- CSS property to place div 
+            side by side -->
+        <style> 
+*
+{
+padding:0;
+margin:0;
+}
+table,th,td{
+border-collapse:collapse;
+border:3px solid black;
+}
+ 
+            #leftbox { 
+                float:left;  
+                background:White; 
+                width:15%; 
+                height:280px; 
+            } 
+            #middlebox{ 
+                float:left;  
+                background:White; 
+                width:50%; 
+                height:280px; 
+            } 
+          label{
+float:left;
+width:150px;
+}
+ .my{
+padding-left:450px;
+
+}  
+</style>  
+    </head>  
+      
+    <body>  
+        <div id = "boxes"> 
+        
+              <div id = "leftbox"> 
+                <table>
+  <tr>
+    <th>Vendor Management</th>
+   </tr>
+  <tr style="background-color:blue";>
+    <td>Vendor List</td>   
+  </tr> 
+<tr  style="height:100px">
+    <td></td>
+    </tr>
+<tr>
+    <td>Item Three</td>
+    </tr>
+<tr>
+    <td>Item Four</td>
+   </tr>
+</table>
+            </div>  
+              
+            <div id = "middlebox"> 
+                <h2>Add a Vendor</h2> </br>
+                <form>
+
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname" size="50"><br><br>
+
+  <label for="lname">Phone:</label>
+  <input type="text" id="lname" name="lname" size="50"></br><br>
+
+<label for="fname">Address Line1:</label>
+  <input type="text" id="fname" name="fname"size="50"><br><br>
+
+  <label for="lname">Address Line2</label>
+  <input type="text" id="lname" name="lname" size="50"></br><br>
+
+<label for="fname">Pincode:</label>
+  <input type="text" id="fname" name="fname" size="50"><br><br>
+
+  <label for="lname">District</label>
+  <input type="text" id="lname" name="lname"  size="50"></br><br>
+
+ <label for="lname">State </label>
+  <input type="text" id="lname" name="lname"  size="50"></br><br>
+
+ <label for="lname">Image</label>
+<button type="submit" form="nameform" value="Submit">Upload</button> C://image.png<br><br>
+
+ <label for="lname">Add new Brand</label>
+  <input type="text" id="lname" name="lname"  size="50"></br><br>
+  
+<label for="lname">Add Existing Brand</label>
+<select>
+    <option value="" style="display:none"> Brand List|</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+</select></br></br>
+
+<label for="lname">Status</label>
+<input type="radio" name="gender" value="male">On
+         <input type="radio" name="gender" value="female">OFF
+
+
+<div class="my">
+<button type="submit" value="Submit">Cancel </button>
+  <button type="reset" value="Reset">Save</button>
+</div>
+</form>
+            </div> 
+              
+            
+        </div> 
+    </body>  
+</html>
